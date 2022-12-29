@@ -100,18 +100,6 @@ footer {
     margin: 40px 0 0;
 }
 
-@media screen and (max-width: 480px) {
-    nav a{
-    font-size: 14px;
-    }
-    .products, .products li{
-    width: 100%;
-    margin: auto auto 20px;
-    padding: 50px 0 auto;
-    }
-}
-
-
 /* CSS CONTACT PAGE */
 
 form {
@@ -168,13 +156,6 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
-
-@media screen and (max-width: 480px) {
-    .but-submit {
-    width: 50%;
-    font-size: 12px;
-}
-
 
 /*CSS HOME PAGE*/
 
@@ -270,6 +251,25 @@ td, th {
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+/*MEDIA QUERIES FOR 480PX */
+
+@media screen and (max-width: 480px) {
+    nav a{
+    font-size: 14px;
+    }
+    .products, .products li{
+    width: 100%;
+    margin: auto auto 20px;
+    padding: 50px 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .but-submit {
+    width: 50%;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 480px) {
